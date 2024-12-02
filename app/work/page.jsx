@@ -19,154 +19,93 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: 1,
-    category: "Front End",
-    title: "Project 1",
-    description: "This is a description for project 1.",
+    category: "Full-Stack",
+    title: "BookaDoctor",
+    description: "Full Stack web application allowing patients to book appointments with various categories of doctors based on their medical needs.",
     stack: [
-      { name: "React" },
-      { name: "Redux" },
+      { name: "NextJs" },
+      { name: "Strapi" },
       { name: "Tailwind CSS" },
-      { name: "Framer Motion" },
+      { name: "PostgreSQL" },
+      { name: "Flask" },
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-1.com",
-    github: "https://github.com/username/project1",
+    github: "https://github.com/ngetichdennis/doctor_booking",
   },
   {
     num: 2,
     category: "Full Stack",
-    title: "Project 2",
-    description: "This is a description for project 2.",
+    title: "Amazon Clone",
+    description: "MERN stack web application replicating the core functionality of the Amazon e-commerce platform",
     stack: [
-      { name: "Node.js" },
-      { name: "Express" },
-      { name: "MongoDB" },
-      { name: "React" },
+      { name: "ReactJs" },
+      { name: "Redux,Context" },
+      { name: "Firebase(No SQL)" },
+      { name: "ExpressJs" },
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-2.com",
-    github: "https://github.com/username/project2",
+    github: "https://github.com/ngetichdennis/amazon-clone",
   },
   {
     num: 3,
-    category: "Mobile App",
-    title: "Project 3",
-    description: "This is a description for project 3.",
+    category: "Full Stack",
+    title: "Mazingira",
+    description: "Full Stack web application for donors to contribute to organizations of their choice.",
     stack: [
-      { name: "React Native" },
-      { name: "Redux" },
-      { name: "Expo" },
-      { name: "Firebase" },
+      { name: "React Js" },
+      { name: "Redux,Context" },
+      { name: "Flask" },
+      { name: "PostgreSQL" },
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-3.com",
-    github: "https://github.com/username/project3",
+    github: "https://github.com/ngetichdennis/Mazingira",
   },
   {
     num: 4,
     category: "Front End",
-    title: "Project 4",
-    description: "This is a description for project 4.",
+    title: "PixelHive",
+    description: "Web application for users to store and categorize images in personalized galleries.",
     stack: [
-      { name: "Vue.js" },
-      { name: "Vuex" },
-      { name: "Bootstrap" },
-      { name: "Axios" },
+      { name: "ReactJs" },
+      { name: "ChackraUI" },
+      { name: "Formik" },
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-4.com",
-    github: "https://github.com/username/project4",
+    github: "https://github.com/ngetichdennis/Gallery-App",
   },
   {
     num: 5,
     category: "Backend",
-    title: "Project 5",
-    description: "This is a description for project 5.",
+    title: "LandPro",
+    description: "Land management system enabling users to query land information through a user-friendly command line interface (CLI).",
     stack: [
-      { name: "Node.js" },
-      { name: "Express" },
-      { name: "PostgreSQL" },
-      { name: "Docker" },
+      { name: "Flask" },
+      { name: "SQLAlchemy" },
+
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-5.com",
-    github: "https://github.com/username/project5",
+    github: "https://github.com/ngetichdennis/LandPro",
   },
   {
     num: 6,
-    category: "Front End",
-    title: "Project 6",
-    description: "This is a description for project 6.",
+    category: "Full Stack",
+    title: "Delica Foods",
+    description: "Food management system allowing users to browse and order preferred food items.",
     stack: [
-      { name: "Angular" },
-      { name: "RxJS" },
-      { name: "NgRx" },
-      { name: "SCSS" },
+      { name: "ReactJS" },
+      { name: "Flask" },
+      { name: "CSS3" },
     ],
     image: "/assets/denopic2.png",
     live: "https://live-link-6.com",
-    github: "https://github.com/username/project6",
+    github: "https://github.com/ngetichdennis/food-ordering-management-system",
   },
-  {
-    num: 7,
-    category: "Full Stack",
-    title: "Project 7",
-    description: "This is a description for project 7.",
-    stack: [
-      { name: "Django" },
-      { name: "React" },
-      { name: "Redux" },
-      { name: "SQLite" },
-    ],
-    image: "/assets/denopic2.png",
-    live: "https://live-link-7.com",
-    github: "https://github.com/username/project7",
-  },
-  {
-    num: 8,
-    category: "Mobile App",
-    title: "Project 8",
-    description: "This is a description for project 8.",
-    stack: [
-      { name: "Flutter" },
-      { name: "Dart" },
-      { name: "Firebase" },
-      { name: "REST API" },
-    ],
-    image: "/assets/denopic2.png",
-    live: "https://live-link-8.com",
-    github: "https://github.com/username/project8",
-  },
-  {
-    num: 9,
-    category: "Front End",
-    title: "Project 9",
-    description: "This is a description for project 9.",
-    stack: [
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "Tailwind CSS" },
-      { name: "GraphQL" },
-    ],
-    image: "/assets/denopic2.png",
-    live: "https://live-link-9.com",
-    github: "https://github.com/username/project9",
-  },
-  {
-    num: 10,
-    category: "Backend",
-    title: "Project 10",
-    description: "This is a description for project 10.",
-    stack: [
-      { name: "Spring Boot" },
-      { name: "Java" },
-      { name: "MySQL" },
-      { name: "Hibernate" },
-    ],
-    image: "/assets/denopic2.png",
-    live: "https://live-link-10.com",
-    github: "https://github.com/username/project10",
-  },
+
 ];
 
 const Work = () => {
@@ -213,7 +152,7 @@ const Work = () => {
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
                 {/* Live Project Button */}
-                <Link href={project.live} target="_blank">
+                {/* <Link href={project.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -224,7 +163,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> */}
                 {/* GitHub Button */}
                 <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>

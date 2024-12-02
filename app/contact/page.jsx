@@ -11,17 +11,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "12345678",
+    description: "0700632718",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "example@example.com",
+    description: "ngetichdennis90@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "123 Street, City, Country",
+    description: "Nairobi,Kenya",
   },
 ];
 
