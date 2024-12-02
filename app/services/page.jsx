@@ -8,35 +8,34 @@ const services = [
   {
     num: 1,
     title: "Web Development",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, 
-    tempus quisquam in est. Cum sociis natoque penatibus et magnis 
-    dis parturient montes, nascetur ridiculus mus.`,
+    description: `Accomplished Software Engineer with a strong foundation in full stack web development, specializing in building 
+and deploying scalable applications using JavaScript frameworks such as ReactJS and NextJS, and back-end 
+technologies like Python, Java, Flask, and SQL. Skilled in integrating cloud solutions with AWS and Google 
+Cloud, and proficient in managing databases with MySQL and PostgreSQL to ensure seamless data flow and 
+system performance. Adept at contributing to all phases of the software development lifecycle, delivering highquality, efficient code, and utilizing version control systems like Git to maintain project integrity. Eager to bring 
+expertise, contributing to the development of high-volume, low-latency applications for mission-critical 
+systems.`,
     href: ""
   },
   {
     num: 2,
-    title: "UI/UX Design",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, 
-    tempus quisquam in est. Cum sociis natoque penatibus et magnis 
-    dis parturient montes, nascetur ridiculus mus.`,
+    title: "SEO Optimization",
+    description: `I am an SEO Developer with a strong focus on enhancing website visibility and performance in search engine rankings. I specialize in implementing technical SEO strategies, optimizing site speed, improving mobile responsiveness, and integrating structured data to ensure compliance with search engine guidelines. With expertise in keyword research and analytics tools like Google Search Console and Google Analytics, I craft solutions that drive organic traffic and improve user engagement. My goal is to create search-engine-friendly websites that deliver measurable results and sustainable growth.`,
     href: ""
   },
   {
     num: 3,
-    title: "Digital Marketing",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, 
-    tempus quisquam in est. Cum sociis natoque penatibus et magnis 
-    dis parturient montes, nascetur ridiculus mus.`,
+    title: "GIS Service",
+    description: `I am a GIS Expert with extensive experience in leveraging Geographic Information Systems to analyze, visualize, and manage spatial data. I specialize in creating detailed maps, conducting geospatial analysis, and developing solutions that integrate GIS technologies for decision-making and problem-solving. With proficiency in tools like ArcGIS, QGIS, and remote sensing software, I excel in transforming complex spatial data into actionable insights. My work is driven by a passion for innovation and sustainability, aimed at delivering impactful solutions for urban planning, environmental management, and other geospatial challenges.`,
     href: ""
   },
   {
     num: 4,
-    title: "SEO Optimization",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, 
-    tempus quisquam in est. Cum sociis natoque penatibus et magnis 
-    dis parturient montes, nascetur ridiculus mus.`,
+    title: "Engineering Survey",
+    description: `I am an Engineering Surveyor skilled in providing precise geospatial measurements and data essential for engineering and construction projects. I specialize in conducting topographic surveys, setting out construction sites, and monitoring structural alignments using advanced surveying equipment like Total Stations, GPS, and laser scanners. With a keen eye for detail and a commitment to accuracy, I ensure that projects are executed with precision and adhere to design specifications. My expertise supports successful infrastructure development, land assessment, and project management in diverse engineering fields..`,
     href: ""
   }
+
 ];
 
 
