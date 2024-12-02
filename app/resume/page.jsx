@@ -30,7 +30,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "./../../components/ui/
 
 const about = {
   title: "About",
-  description: "This is a description",
+  description: "I am a dedicated freelancer with a strong background in both frontend and backend development, specializing in front end technologies such as Javascript, React,NextJS, and Tailwind CSS.I have been crafting dynamic and responsive web applications, leveraging my expertise in Python technologies, Flask, and CMS platforms like Strapi to optimize content management systems. I have successfully collaborated with developers on startup projects, including the ERP Project by Anza Village (STARTAZ ERP), where I played a key role in testing, debugging, and enhancing web applications.Previously, as a student at Moringa School, I innovated ReactJS applications, developed RESTful APIs using Flask, and integrated Firebase for scalable full-stack MERN applications. I excel at troubleshooting, developing seamless user experiences, and ensuring the efficient operation of applications across both front-end and back-end systems.",
   infos: [
     {
       fieldName: "Name",
@@ -52,54 +52,40 @@ const about = {
 };
 
 const experience = {
-  icon: "",
   title: "My Experience",
-  description: "This is my description",
+  description: "I am a dedicated freelancer with a strong background in both frontend and backend development, specializing in front end technologies such as Javascript, React,NextJS, and Tailwind CSS.I have been crafting dynamic and responsive web applications, leveraging my expertise in Python technologies, Flask, and CMS platforms like Strapi to optimize content management systems. I have successfully collaborated with developers on startup projects, including the ERP Project by Anza Village (STARTAZ ERP), where I played a key role in testing, debugging, and enhancing web applications.Previously, as a student at Moringa School, I innovated ReactJS applications, developed RESTful APIs using Flask, and integrated Firebase for scalable full-stack MERN applications. I excel at troubleshooting, developing seamless user experiences, and ensuring the efficient operation of applications across both front-end and back-end systems.",
   items: [
     {
       company: "Freelance",
       position: "Full Stack Developer",
-      duration: "2020-2022",
+      duration: "June,2024-To date",
     },
     {
-      company: "Tech Corp",
+      company: "Moringa School Trainee",
       position: "Software Engineer",
-      duration: "2018-2020",
-    },
-    {
-      company: "Innovative Solutions",
-      position: "Front-End Developer",
-      duration: "2016-2018",
-    },
-    {
-      company: "Creative Agency",
-      position: "Junior Developer",
-      duration: "2014-2016",
+      duration: "2023-2024",
     },
   ],
 };
 
 const education = {
-  icon: "",
   title: "My Education",
-  description: "This is my description",
   items: [
     {
-      institution: "University of Nairobi",
-      degree: "Bachelor of Science in Computer Science",
-      duration: "2010-2014",
+      institution: "Moringa School",
+      degree: "Software Engineering",
+      duration: "2023-2024",
     },
     {
-      institution: "Kisumu Polytechnic",
-      degree: "Diploma in Computer Science",
-      duration: "2008-2010",
+      institution: "Technical University of Kenya",
+      degree: "Geospatial Engineering",
+      duration: "2017-2024",
     },
   ],
 };
 
 const skills = {
   title: "My Skills",
-  description: "This is my description",
   items: [
     {
       icon: <FaJs />,
