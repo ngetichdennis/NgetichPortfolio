@@ -44,7 +44,7 @@ const projects = [
       { name: "Flask" },
       { name: "PostgreSQL" },
     ],
-    image: "/assets/denopic2.png",
+    image: "/work/Mazingiraapp.PNG",
     live: "/work/Mazingiraapp.PNG",
     github: "https://github.com/ngetichdennis/Mazingira",
   },
